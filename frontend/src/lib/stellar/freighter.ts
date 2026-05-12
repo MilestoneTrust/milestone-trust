@@ -1,5 +1,16 @@
 // Freighter wallet integration for Stellar
 
+// Declare the Freighter API type
+declare global {
+  interface Window {
+    freighterApi?: {
+      getPublicKey(): Promise<string>;
+      isConnected(): Promise<boolean>;
+      signTransaction(xdr: string, opts?: { network?: string }): Promise<{ signedXDR: string }>;
+    };
+  }
+}
+
 export async function isFreighterInstalled(): Promise<boolean> {
   return typeof window !== 'undefined' && typeof window.freighterApi !== 'undefined';
 }
