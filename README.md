@@ -1,3 +1,7 @@
+[![Backend CI](https://github.com/MilestoneTrust/milestone-trust/actions/workflows/backend-ci.yml/badge.svg)](https://github.com/MilestoneTrust/milestone-trust/actions/workflows/backend-ci.yml)
+[![Contract CI](https://github.com/MilestoneTrust/milestone-trust/actions/workflows/contract-ci.yml/badge.svg)](https://github.com/MilestoneTrust/milestone-trust/actions/workflows/contract-ci.yml)
+[![Frontend CI](https://github.com/MilestoneTrust/milestone-trust/actions/workflows/frontend-ci.yml/badge.svg)](https://github.com/MilestoneTrust/milestone-trust/actions/workflows/frontend-ci.yml)
+
 # MilestoneTrust
 
 A robust, full-stack platform for **milestone-based escrow payments** on Stellar. Clients lock funds in a Soroban smart contract, and freelancers get paid automatically as each milestone is completed.
